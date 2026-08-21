@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+a {
+    color: #006b5f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 20px 7%;
+    background-color: #ffffff;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar a {
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar a:hover {
+    color: #007f73;
+    text-decoration: none;
+}
+
+/* Hero image */
+.bg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Hero text */
+.heading1 {
+    max-width: 850px;
+    margin: -180px auto 20px;
+    padding: 0 30px;
+    color: white;
+    font-size: 42px;
+    line-height: 1.15;
+    position: relative;
+    text-align: center;
+}
+
+.heading2 {
+    max-width: 750px;
+    margin: 0 auto 25px;
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.onebg {
+    display: block;
+    margin: 0 auto 130px;
+    padding: 14px 30px;
+    background-color: #007f73;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button {
+    padding: 13px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #007f73;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005e55;
+}
+
+/* General sections */
+.two,
+.three,
+.four,
+.eight,
+.nine {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.two {
+    background-color: #e8f4f1;
+    min-height: 400px;
+}
+
+.two img {
+    width: 45%;
+    height: 320px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.two h1,
+.three h1,
+.four h1,
+.eight h1,
+.nine h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.two p,
+.three p,
+.four p,
+.eight p,
+.nine p {
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+/* Savings section */
+.three {
+    background-color: #f4f1ea;
+    min-height: 400px;
+}
+
+.three img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+/* Business section */
+.four {
+    background-color: #006b5f;
+    color: white;
+    min-height: 500px;
+}
+
+.four img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.four a {
+    color: white;
+}
+
+/* Fraud heading */
+body > h1 {
+    max-width: 1200px;
+    margin: 70px auto 10px;
+    padding: 0 30px;
+    font-size: 36px;
+}
+
+body > h1 + p {
+    max-width: 1200px;
+    margin: 0 auto 35px;
+    padding: 0 30px;
+}
+
+/* Fraud cards */
+.five,
+.seven,
+.six {
+    width: 31%;
+    min-height: 470px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.five img,
+.seven img,
+.six img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.five h1,
+.seven h1,
+.six h1 {
+    font-size: 23px;
+    line-height: 1.3;
+    margin: 20px 0 15px;
+}
+
+.five p,
+.seven p,
+.six p {
+    font-size: 15px;
+}
+
+/* Travel section */
+.eight {
+    background-color: #dcefeb;
+    min-height: 400px;
+}
+
+.eight img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+/* Online banking heading */
+body > h3 {
+    max-width: 1200px;
+    margin: 70px auto 5px;
+    padding: 0 30px;
+    color: #007f73;
+    font-size: 18px;
+}
+
+body > h3 + h1 {
+    max-width: 1200px;
+    margin: 0 auto 10px;
+    padding: 0 30px;
+    font-size: 38px;
+}
+
+body > h3 + h1 + p {
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 0 30px;
+}
+
+/* Online banking cards */
+.ten,
+.elven,
+.twelven {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 180px;
+    margin: 1.5%;
+    padding: 30px;
+    background-color: #f1f7f5;
+    border-radius: 8px;
+    border-top: 5px solid #007f73;
+}
+
+.ten h3,
+.elven h3,
+.twelven h3 {
+    margin-bottom: 15px;
+    color: #006b5f;
+    font-size: 21px;
+}
+
+.ptag {
+    color: #007f73;
+    text-decoration: underline;
+}
+
+/* Online banking link */
+.twelven + a {
+    display: block;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+/* Personal banking */
+.nine {
+    background-color: #f3eee6;
+    margin-top: 50px;
+}
+
+.nine a {
+    font-weight: bold;
+}
+
+/* Footer */
+.fooder {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 8%;
+    margin-top: 60px;
+    background-color: #202020;
+    color: white;
+}
+
+.fooder > div {
+    flex: 1;
+}
+
+.fooder h3 {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.fooder a {
+    color: #ddd;
+    font-size: 15px;
+}
+
+.fooder a:hover {
+    color: white;
+}
+
+/* Clear floats */
+.two::after,
+.three::after,
+.four::after,
+.eight::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .navbar {
+        gap: 15px;
+        padding: 15px 4%;
+        flex-wrap: wrap;
+    }
+
+    .bg {
+        height: 400px;
+    }
+
+    .heading1 {
+        margin-top: -150px;
+        font-size: 32px;
+    }
+
+    .heading2 {
+        font-size: 16px;
+    }
+
+    .two,
+    .three,
+    .four,
+    .eight,
+    .nine {
+        margin: 30px 20px;
+        padding: 30px;
+    }
+
+    .two img,
+    .three img,
+    .four img,
+    .eight img {
+        float: none;
+        width: 100%;
+        height: 280px;
+        margin: 0 0 25px;
+    }
+
+    .five,
+    .seven,
+    .six {
+        display: block;
+        width: auto;
+        margin: 20px;
+    }
+
+    .ten,
+    .elven,
+    .twelven {
+        display: block;
+        width: auto;
+        margin: 20px;
+    }
+
+    .fooder {
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .bg {
+        height: 350px;
+    }
+
+    .heading1 {
+        margin-top: -120px;
+        font-size: 26px;
+    }
+
+    .heading2 {
+        font-size: 14px;
+    }
+
+    .onebg {
+        margin-bottom: 80px;
+    }
+
+    .two,
+    .three,
+    .four,
+    .eight,
+    .nine {
+        padding: 20px;
+    }
+
+    .two h1,
+    .three h1,
+    .four h1,
+    .eight h1,
+    .nine h1 {
+        font-size: 28px;
+    }
+
+    body > h1 {
+        font-size: 28px;
+    }
+}
